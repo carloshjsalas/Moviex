@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="space_big">24dp</dimen>
+  <dimen name="space_regular">16dp</dimen>
+  <dimen name="space_medium">10dp</dimen>
+  <dimen name="space_small">5dp</dimen>
+
+  <dimen name="text_title_size">18sp</dimen>
+  <dimen name="details_title_size">24sp</dimen>
+  <dimen name="overview_size">20sp</dimen>
+  <dimen name="text_regular_size">16sp</dimen>
+
+  <dimen name="item_list_width">120dp</dimen>
+  <dimen name="footer_list_width">64dp</dimen>
+  <dimen name="item_list_height">180dp</dimen>
+  <dimen name="main_toolbar_height">182dp</dimen>
+  <dimen name="add_button_size">58dp</dimen>
+  <dimen name="elevation_value">4dp</dimen>
+  <dimen name="detail_main_header">280dp</dimen>
+  <dimen name="card_radius">4dp</dimen>
+
+  <dimen name="loading_size">32dp</dimen>
+    <dimen name="logo_height">32dp</dimen>
+</resources>

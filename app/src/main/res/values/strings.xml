@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Moviex</string>
+
+    <!--Url-->
+    <string name="base_url" translatable="false">https://api.themoviedb.org/3/</string>
+    <string name="api_key" translatable="false">5d967c7c335764f39b1efbe9c5de9760</string>
+
+    <string name="movies_title_popular">Popular Movies</string>
+    <string name="movies_title_upcoming">Upcoming Movies</string>
+    <string name="movies_title_top_rated">Top Rated Movies</string>
+
+    <string name="series_title_popular">Popular Series</string>
+    <string name="series_title_latest">On The Air Series</string>
+    <string name="series_title_top_rated">Top Rated Series</string>
+
+    <string name="first_air_date">First Air Date: %1$s</string>
+    <string name="rating">Rating: %1$s</string>
+    <string name="popularity">Popularity: %1$s</string>
+    <string name="overview">Overview</string>
+
+    <string name="action_search">Search</string>
+    <string name="search_hint">Search movie or series</string>
+
+    <string name="results_for">Results for \"%1$s\"</string>
+    <string name="internet_error">You don\'t have internet connection</string>
+    <string name="internet_error_searching">You don\'t connection</string>
+
+</resources>

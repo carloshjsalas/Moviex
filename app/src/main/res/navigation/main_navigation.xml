@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeFragmentDestination">
+
+    <fragment
+        android:id="@+id/homeFragmentDestination"
+        android:name="com.moviex.fragments.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/homeToCategoryDestination"
+            app:destination="@id/categoryFragmentDestination"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/homeToDetailDestination"
+            app:destination="@id/detailFragmentDestination" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/categoryFragmentDestination"
+        android:name="com.moviex.fragments.CategoryFragment"
+        android:label="CategoryFragment"
+        tools:layout="@layout/fragment_category">
+
+        <argument
+            android:name="categoryType"
+            app:argType="string" />
+
+        <action
+            android:id="@+id/categoryToDetailDestination"
+            app:destination="@id/detailFragmentDestination" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragmentDestination"
+        android:name="com.moviex.fragments.DetailFragment"
+        android:label="DetailFragment"
+        tools:layout="@layout/fragment_detail">
+
+        <argument
+            android:name="movieOrSeries"
+            app:argType="com.moviex.model.MovieOrSeries" />
+
+    </fragment>
+
+</navigation>
